@@ -1,0 +1,12 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/groupRoom": "pages/groupRoom.html",
+  "/home": "pages/home.html",
+  "/login": "pages/login.html",
+  "/main": "pages/main.html",
+  "/register": "pages/register.html",
+  "/room": "pages/room.html",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.html"
+}
