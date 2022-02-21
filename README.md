@@ -1,38 +1,21 @@
-<p align="center"><img src="https://i.imgur.com/flcMvDC.png"></p>
+# Chatting App
 
-## Usage
+## How to start
 
-### Create an App
-
+1. git clone
 ```
-# with npx
-$ npx create-nextron-app my-app --example with-typescript-material-ui
-
-# with yarn
-$ yarn create nextron-app my-app --example with-typescript-material-ui
-
-# with pnpx
-$ pnpx create-nextron-app my-app --example with-typescript-material-ui
+$ git clone https://github.com/jaehunkim0828/nextron-chatting.git
+```
+2. npm or yarn
+```
+$ npm i
+$ yarn
 ```
 
-### Install Dependencies
-
+3. build
+  - package.json 참고
 ```
-$ cd my-app
-
-# using yarn or npm
-$ yarn (or `npm install`)
-
-# using pnpm
-$ pnpm install --shamefully-hoist
+$ yarn build:all
 ```
-
-### Use it
-
-```
-# development mode
-$ yarn dev (or `npm run dev` or `pnpm run dev`)
-
-# production build
-$ yarn build (or `npm run build` or `pnpm run build`)
-```
+4. dist
+  - dist 파일에서 프로젝트를 찾으실 수 있습니다.
